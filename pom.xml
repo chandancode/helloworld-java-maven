@@ -39,16 +39,10 @@
 	</build>
   
 <distributionManagement>
-    <repository>
-        <id>rajesh</id>
-        <name>rajesh-releases</name>
-        <url>http://13.232.51.65:8085/artifactory/nokia</url>
-    </repository>
-    <snapshotRepository>
-        <id>rajesh</id>
-        <name>rajesh-snapshots</name>
-        <url>http://13.232.51.65:8085/artifactory/nokia</url>
-    </snapshotRepository>
+  <repository>
+    <id>deployment</id>
+    <url>http://54.255.180.242:8081/nexus/content/repositories/deployment</url>
+  </repository>
 </distributionManagement>
 
 
